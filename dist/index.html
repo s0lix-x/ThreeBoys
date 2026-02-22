@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThreeBoys</title>
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-public-sans">
+    <header>
+      <nav
+        class="flex items-center justify-between px-10 py-4 border-b border-gray-300"
+      >
+        <h1 class="font-bluewinter text-3xl text-green-primary">ThreeBoys</h1>
+
+        <div class="relative w-md">
+          <i
+            class="ti ti-search absolute left-4 top-1/2 transform -translate-y-1/2"
+          ></i>
+          <input
+            class="w-full pl-10 py-2 border border-gray-300 rounded-md outline-none"
+            type="text"
+            placeholder="Search for..."
+          />
+        </div>
+
+        <div class="flex items-center gap-4">
+          <i class="ti ti-shopping-bag text-3xl"></i>
+          <i class="ti ti-heart text-3xl"></i>
+          <button class="w-24 px-4 py-2 text-center border-2 font-bold rounded">
+            Sign Up
+          </button>
+          <button
+            class="w-24 px-4 py-2 text-center bg-black text-white font-bold rounded"
+          >
+            Log in
+          </button>
+        </div>
+      </nav>
+      <div class="px-10 border-b border-gray-300">
+        <ul class="flex font-bold">
+          <li
+            class="hover:bg-black hover:text-white transition duration-200 p-3"
+          >
+            Women
+          </li>
+          <li
+            class="hover:bg-black hover:text-white transition duration-200 p-3"
+          >
+            Men
+          </li>
+          <li
+            class="hover:bg-black hover:text-white transition duration-200 p-3"
+          >
+            Kids
+          </li>
+          <li
+            class="hover:bg-black hover:text-white transition duration-200 p-3"
+          >
+            Brands
+          </li>
+          <li
+            class="hover:bg-black hover:text-white transition duration-200 p-3"
+          >
+            Sports
+          </li>
+          <li
+            class="hover:bg-black hover:text-white transition duration-200 p-3"
+          >
+            Trending
+          </li>
+          <li
+            class="hover:bg-red-500 hover:text-white transition duration-200 p-3"
+          >
+            Sale
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="grid grid-cols-2">
+        <div class="relative">
+          <img
+            src="./assets/images/Bannerwomen.jpg"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center text-white">
+              <h1 class="font-archivo-black text-4xl font-bold mb-4">Women</h1>
+              <button class="px-6 py-2 bg-white text-black font-bold rounded">
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <img
+            src="./assets/images/BannerMen.jpg"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center text-white">
+              <h1 class="font-archivo-black text-4xl font-bold mb-4">Men</h1>
+              <button class="px-6 py-2 bg-white text-black font-bold rounded">
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="py-20">
+        <h1 class="font-archivo-black text-5xl text-center my-10">
+          "If It’s Here,
+          <span class="line-through text-gray-200">Maybe</span> It’s Worth It."
+        </h1>
+        <button
+          class="block mx-auto px-6 py-2 bg-black text-white font-bold rounded"
+        >
+          Shop Now
+        </button>
+      </div>
+
+      <section class="px-10 mt-20">
+        <h2 class="font-archivo-black text-2xl font-bold">Shop by Style</h2>
+        <div class="grid grid-cols-3 gap-6 mt-4">
+          <div
+            class="group relative h-64 cursor-pointer overflow-hidden rounded-xl shadow-sm"
+          >
+            <img
+              src="./assets/images/Romance-Party.jpg"
+              alt="Romance Ready"
+              class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition-all duration-500"
+            ></div>
+            <div class="absolute inset-0 flex flex-col justify-end p-6">
+              <p
+                class="text-lg font-bold text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-out drop-shadow-md"
+              >
+                Romance Ready
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="group relative h-64 cursor-pointer overflow-hidden rounded-xl shadow-sm"
+          >
+            <img
+              src="./assets/images/Coffee-Run.jpeg"
+              alt="Coffee Run"
+              class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition-all duration-500"
+            ></div>
+            <div class="absolute inset-0 flex flex-col justify-end p-6">
+              <p
+                class="text-lg font-bold text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-out drop-shadow-md"
+              >
+                Coffee Run
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="group relative h-64 cursor-pointer overflow-hidden rounded-xl shadow-sm"
+          >
+            <img
+              src="./assets/images/Hit-the-Slopes.jpeg"
+              alt="Hit the Slopes"
+              class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition-all duration-500"
+            ></div>
+            <div class="absolute inset-0 flex flex-col justify-end p-6">
+              <p
+                class="text-lg font-bold text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-out drop-shadow-md"
+              >
+                Hit the Slopes
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="group relative h-64 cursor-pointer overflow-hidden rounded-xl shadow-sm"
+          >
+            <img
+              src="./assets/images/After-Hours.jpeg"
+              alt="After Hours"
+              class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition-all duration-500"
+            ></div>
+            <div class="absolute inset-0 flex flex-col justify-end p-6">
+              <p
+                class="text-lg font-bold text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-out drop-shadow-md"
+              >
+                After Hours
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="group relative h-64 cursor-pointer overflow-hidden rounded-xl shadow-sm"
+          >
+            <img
+              src="./assets/images/Desk-to-Dinner.jpeg"
+              alt="Desk to Dinner"
+              class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition-all duration-500"
+            ></div>
+            <div class="absolute inset-0 flex flex-col justify-end p-6">
+              <p
+                class="text-lg font-bold text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-out drop-shadow-md"
+              >
+                Desk to Dinner
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="group relative h-64 cursor-pointer overflow-hidden rounded-xl shadow-sm"
+          >
+            <img
+              src="./assets/images/Weekend-Getaway.jpeg"
+              alt="Weekend Getaway"
+              class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition-all duration-500"
+            ></div>
+            <div class="absolute inset-0 flex flex-col justify-end p-6">
+              <p
+                class="text-lg font-bold text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-out drop-shadow-md"
+              >
+                Weekend Getaway
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-10 mt-20">
+        <h2 class="font-archivo-black text-2xl font-bold">Shop by Price</h2>
+
+        <div class="grid grid-cols-4 gap-6">
+          <div
+            class="group flex flex-col items-center text-center justify-center border border-gray-200 rounded-xl p-10 mt-4 cursor-pointer text-2xl bg-white transition-all duration-300 ease-out hover:bg-[#006D57] hover:text-white hover:-translate-y-3"
+          >
+            <p
+              class="font-medium transition-all duration-300 group-hover:text-white group-hover:font-bold"
+            >
+              Under <span class="font-bold">Rp 50K</span>
+            </p>
+          </div>
+
+          <div
+            class="group flex flex-col items-center text-center justify-center border border-gray-200 rounded-xl p-10 mt-4 cursor-pointer text-2xl bg-white transition-all duration-300 ease-out hover:bg-[#006D57] hover:text-white hover:-translate-y-3"
+          >
+            <p
+              class="font-medium transition-all duration-300 group-hover:text-white group-hover:font-bold"
+            >
+              Under <span class="font-bold">Rp 100K</span>
+            </p>
+          </div>
+
+          <div
+            class="group flex flex-col items-center text-center justify-center border border-gray-200 rounded-xl p-10 mt-4 cursor-pointer text-2xl bg-white transition-all duration-300 ease-out hover:bg-[#006D57] hover:text-white hover:-translate-y-3"
+          >
+            <p
+              class="font-medium transition-all duration-300 group-hover:text-white group-hover:font-bold"
+            >
+              Under <span class="font-bold">Rp 200K</span>
+            </p>
+          </div>
+
+          <div
+            class="group flex flex-col items-center text-center justify-center border border-gray-200 rounded-xl p-10 mt-4 cursor-pointer text-2xl bg-white transition-all duration-300 ease-out hover:bg-[#006D57] hover:text-white hover:-translate-y-3"
+          >
+            <p
+              class="font-medium transition-all duration-300 group-hover:text-white group-hover:font-bold"
+            >
+              Under <span class="font-bold">Rp 500K</span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-20 border-t border-gray-300 bg-white">
+      <div class="px-10 py-12">
+        <div class="grid grid-cols-4 gap-12">
+          <div>
+            <h1 class="font-bluewinter text-3xl text-green-primary">
+              ThreeBoys
+            </h1>
+            <p class="text-gray-600 mt-3 text-sm leading-relaxed">
+              Where quality secondhand meets modern everyday identity.
+            </p>
+            <div class="mt-4 flex gap-4">
+              <a
+                href="#"
+                class="text-gray-500 hover:text-black transition-colors"
+              >
+                <i class="ti ti-brand-instagram text-2xl"></i>
+              </a>
+              <a
+                href="#"
+                class="text-gray-500 hover:text-black transition-colors"
+              >
+                <i class="ti ti-brand-tiktok text-2xl"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <p class="font-bold mb-4 text-gray-800">ThreeBoys</p>
+            <ul class="space-y-3 text-sm text-gray-600">
+              <li><a href="#" class="hover:text-black">About Us</a></li>
+              <li><a href="#" class="hover:text-black">Our Story</a></li>
+              <li><a href="#" class="hover:text-black">Our Standards</a></li>
+              <li><a href="#" class="hover:text-black">How It Works</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="font-bold mb-4 text-gray-800">Shop</p>
+            <ul class="space-y-3 text-sm text-gray-600">
+              <li><a href="#" class="hover:text-black">New Arrivals</a></li>
+              <li><a href="#" class="hover:text-black">Best Sellers</a></li>
+              <li><a href="#" class="hover:text-black">Sale</a></li>
+              <li><a href="#" class="hover:text-black">All Items</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="font-bold mb-4 text-gray-800">Support</p>
+            <ul class="space-y-3 text-sm text-gray-600">
+              <li><a href="#" class="hover:text-black">FAQ</a></li>
+              <li><a href="#" class="hover:text-black">Shipping</a></li>
+              <li><a href="#" class="hover:text-black">Safety Tips</a></li>
+              <li><a href="#" class="hover:text-black">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-200 bg-gray-50">
+        <div
+          class="px-10 py-6 flex justify-between items-center text-sm text-gray-500"
+        >
+          <div>
+            <p>© 2026 ThreeBoys. All rights reserved.</p>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <span class="font-medium text-gray-600">We Accept:</span>
+            <div class="flex items-center gap-6">
+              <img
+                src="./assets/images/Dana.png"
+                alt="Dana"
+                class="h-5 object-contain"
+              />
+              <img
+                src="./assets/images/ShopeePay.png"
+                alt="ShopeePay"
+                class="h-5 object-contain"
+              />
+              <img
+                src="./assets/images/GoPay.png"
+                alt="GoPay"
+                class="h-5 object-contain"
+              />
+              <img
+                src="./assets/images/OVO.png"
+                alt="OVO"
+                class="h-5 object-contain"
+              />
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <a href="#" class="hover:text-black">Privacy Policy</a>
+            <a href="#" class="hover:text-black">Terms of Service</a>
+            <a href="#" class="hover:text-black">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
