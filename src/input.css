@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "BlueWinter";
+  src: url("/fonts/Blue\ Winter.ttf") format("truetype");
+}
+
+@import "tailwindcss";
+@layer utilities {
+  .font-archivo-black {
+    font-family: "Archivo Black", sans-serif;
+  }
+  .font-public-sans {
+    font-family: "Public Sans", sans-serif;
+  }
+  .font-bluewinter {
+    font-family: "BlueWinter";
+  }
+  .text-green-primary {
+    color: #006d57;
+  }
+  .color-green-primary {
+    color: #006d57;
+  }
+  .bg-green-primary {
+    background-color: #006d57;
+  }
+}
